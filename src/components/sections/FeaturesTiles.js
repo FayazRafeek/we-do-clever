@@ -44,8 +44,8 @@ const FeaturesTiles = ({
   );
 
   const sectionHeader = {
-    title: 'Build up the whole picture',
-    paragraph: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum — semper quis lectus nulla at volutpat diam ut venenatis.'
+    title: 'Our services offerings',
+    paragraph: 'Any IT related projects,'
   };
 
   return (
@@ -63,7 +63,8 @@ const FeaturesTiles = ({
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
                     <Image
-                      src={require('./../../assets/images/feature-tile-icon-01.svg')}
+                      src={require('./../../assets/images/feature-tile-icon-04.svg')}
+                      // src={require('./../../assets/images/feature-tile-icon-01.svg')}
                       alt="Features tile icon 01"
                       width={64}
                       height={64} />
@@ -71,10 +72,10 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Robust Workflow
+                    AI & Data Science
                     </h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
+                    ML tasks like Image Classification, Neural Networks, Data analysis, Real time models etc.
                     </p>
                 </div>
               </div>
@@ -85,7 +86,8 @@ const FeaturesTiles = ({
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
                     <Image
-                      src={require('./../../assets/images/feature-tile-icon-02.svg')}
+                      src={require('./../../assets/images/feature-tile-icon-03.svg')}
+                      // src={require('./../../assets/images/feature-tile-icon-02.svg')}
                       alt="Features tile icon 02"
                       width={64}
                       height={64} />
@@ -93,11 +95,11 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Robust Workflow
+                    Cloud Technology
                     </h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
-                    </p>
+                    Migrating to cloud. Databases, servers and advanced networking in the cloud. We provide our service on GCP and AWS Cloud.
+                  </p>
                 </div>
               </div>
             </div>
@@ -107,7 +109,10 @@ const FeaturesTiles = ({
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
                     <Image
-                      src={require('./../../assets/images/feature-tile-icon-03.svg')}
+                      // src={require('./../../assets/images/feature-tile-icon-01.svg')}
+                      // src={require('./../../assets/images/feature-tile-icon-03.svg')}
+
+                      src={require('./../../assets/images/feature-tile-icon-06.svg')}
                       alt="Features tile icon 03"
                       width={64}
                       height={64} />
@@ -115,11 +120,10 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Robust Workflow
+                    Mobile Apps
                     </h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
-                    </p>
+                    React Native, Android, IOS, applications development. Includes Web Apps and Native application</p>
                 </div>
               </div>
             </div>
@@ -129,7 +133,8 @@ const FeaturesTiles = ({
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
                     <Image
-                      src={require('./../../assets/images/feature-tile-icon-04.svg')}
+                      src={require('./../../assets/images/feature-tile-icon-02.svg')}
+                      // src={require('./../../assets/images/feature-tile-icon-04.svg')}
                       alt="Features tile icon 04"
                       width={64}
                       height={64} />
@@ -137,11 +142,10 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Robust Workflow
+                    Website Developing
                     </h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
-                    </p>
+                    Web application, responsive websites. Covers all options in websites development</p>
                 </div>
               </div>
             </div>
@@ -159,11 +163,10 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Robust Workflow
+                    Data Mining
                     </h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
-                    </p>
+                    Analyze and visualize data. Use varius statistics models to find valuebale insights on it.</p>
                 </div>
               </div>
             </div>
@@ -173,7 +176,7 @@ const FeaturesTiles = ({
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
                     <Image
-                      src={require('./../../assets/images/feature-tile-icon-06.svg')}
+                      src={require('./../../assets/images/feature-tile-icon-01.svg')}
                       alt="Features tile icon 06"
                       width={64}
                       height={64} />
@@ -181,10 +184,10 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Robust Workflow
+                    Proofreading and Reports
                     </h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
+                    Abstract and detailed reports and provides along with the assignment works. Proofreading assignments are also taken care of.
                     </p>
                 </div>
               </div>

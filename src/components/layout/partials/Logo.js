@@ -25,6 +25,7 @@ const Logo = ({
             alt="Open"
             width={32}
             height={32} />
+           
         </Link>
       </h1>
     </div>
