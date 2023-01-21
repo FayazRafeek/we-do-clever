@@ -17,8 +17,9 @@
     "url": "https://github.com/FayazRafeek/we-do-clever.git"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+  
+    "build": "react-scripts --openssl-legacy-provider build",
+    "start": "react-scripts --openssl-legacy-provider start",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
