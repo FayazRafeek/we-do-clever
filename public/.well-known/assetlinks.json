@@ -1,0 +1,8 @@
+[{
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target" : { "namespace": "android_app", "package_name": "com.oss.onlinestudentseva",
+                 "sha256_cert_fingerprints": ["84:6A:A4:DD:40:97:B9:CB:A6:10:90:46:8F:0A:26:5F:C8:C1:10:9E:3B:7D:B3:5F:3D:7B:91:0F:52:4F:DE:02"] }
+  }]
+
+
+ 
